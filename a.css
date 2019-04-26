@@ -24,7 +24,7 @@ a{
 }
 
 .topNavBar  nav{
-    float: right;   
+    float: right; 
 }
 
 .topNavBar .logo{
@@ -106,7 +106,7 @@ a{
     float:left;
     width: 300px;
     height: 346px;
-    
+
     background-image: url(./img/avatar.jpg);
 }
 
@@ -118,6 +118,7 @@ a{
     height:50px;
     float:left;
     margin-top: 67px;
+   
 }
 
 .usercard .self{
