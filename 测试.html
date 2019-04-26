@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ces</title>
+	<style type="text/css">
+iframe{
+    width:100%;
+    height:600px;
+    border:solid 1px;
+  }
+
+</style>
+</head>
+<body>
+ <iframe src="./测试子.html" name=xxx frameborder="0"></iframe><br>
+  <a href="http://baidu.com" target="xxx">百度</a><br>
+  <a href="javascript:;" target="xxx">伪协议href="javascript:;"</a><br>
+<hr><br>
+<form action="sss.php" method="post">
+	<label>用户名<input type="text" name="uses" placeholder="uers" ></label>
+	<input type="radio" name="sex" placeholder="male" id="male" ><label for="male">male</label>
+    <label><input type="radio" name="sex" placeholder="female" checked="true"id="female" >female</label>
+    <label><input type="checkbox" name="check">复选框 	
+    </label>
+    <select name="group">
+    	<option value="">-----</option>
+    	<option value="1">第一组</option>
+    	<option value="2">第二组</option>
+    	<option value="3" disabled>第三组</option>
+    	<option value="4" selected>第四组</option>
+    </select>
+
+    <input type="submit" name="" value="提交"><hr><br>
+
+    <textarea name="爱好" style="resize:none;" placeholder="你的爱好" cols="100" rows="10"></textarea>
+    <button>提交</button>
+    <hr>
+    <table border=1 cellspacing="0">
+    	<colgroup>
+    		<col width=80 bgcolor="red">
+    		<col width=60>
+    		<col width=60>
+    		<col width=60>
+    	</colgroup>
+    	<thead>
+    		<th></th><th>一班</th><th>二班</th><th>三班</th>
+    	</thead>
+        <tr>
+        	<th>平均分</th><td>89</td><td>90</td><td>95</td></tr>
+        	<tr><th>中位数</th><td>88</td><td>96</td><td>93</td></tr>
+        <tfoot>
+        	<th>hebing</th><td colspan="3"></td>
+        </tfoot>  
+    </table>
+</form>
+ 
+
+</body>
+</html>
