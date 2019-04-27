@@ -83,11 +83,14 @@ a{
 }
 
 .usercard{
-    border:1px solid rgb(205, 205, 205);
+    
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color:white;
+    margin-top:-300px;
+    box-shadow: 0px 3px 14px 0px rgba(110,100,110,1);
+
   
 }
 
@@ -122,6 +125,7 @@ a{
     position: relative;
     display: inline-block;
     
+    
 }
 .angel{
     border:10px solid transparent;
@@ -144,8 +148,8 @@ a{
 
 .usercard .self h1 span{
     font-family: "sans-serif";
-    margin-right: 8px;
-    font-size: 55px;
+    margin-right: 15px;
+    font-size: 60px;
 }
 
 .usercard p{
@@ -199,12 +203,130 @@ hr{
 
 .media a{
     border: 1px solid rgb(232, 103, 107);
-    background-color: rgb(232, 103, 107);
-    display: inline-block;
-    margin:20px 20px;
     border-radius:50%;
+    display: inline-block;
+    margin:20px 20px; 
 }
 
 .media a:hover{
     background-color:rgba(0, 0, 0,0.1);
+    
+}
+/*******************个人卡片******************************/
+ul,ol{
+    list-style: none;
+}
+/*******************下载键****************************/
+.buttom{
+    border-radius: 11px;
+    padding: 21px 55px;
+    border: 1px solid rgb(203, 205, 207); 
+    background-color: rgb(241, 239, 239);
+   
+   
+}
+
+.buttom:hover{
+    box-shadow: 0px 4px 13px 3px rgba(143,141,143,1);
+    transition: box-shadow 0.5s;
+}
+.download{
+    
+    text-align: center;/****因为a为内联元素，auto,margin-top&bottom无效******/
+    margin: 50px 55px;
+    
+}
+
+ .text{
+  text-align: center;
+  max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+section {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+section h2{
+text-align: center;
+font-size: 40px;
+color:rgb(75, 81, 93);
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+.skills ol{
+    box-shadow: 0px 4px 13px 3px rgba(143,141,143,1);
+    background-color: #fff;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.skills ol li{
+    float: left;
+    width: 40%;
+    padding: 30px 0px 10px 40px;
+    display: block;
+    margin-left: 35px;
+    
+}
+
+
+
+.skillprogress{
+    height:4px;
+    border:1px solid rgb(245, 169, 169);
+    width: 90%;
+    background-color: rgb(245, 169, 169);
+    margin:4px 0px;
+
+}
+
+.progress1{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 80%;
+    background-color: rgb(223, 114, 114);
+}
+
+.progress2{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 60%;
+    background-color: rgb(223, 114, 114);
+}
+
+.progress3{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 90%;
+    background-color: rgb(223, 114, 114);
+}
+
+.progress4{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 95%;
+    background-color: rgb(223, 114, 114);
+}
+
+.progress5{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 60%;
+    background-color: rgb(223, 114, 114);
+}
+.progress6{
+    height:3px;
+    border:1px solid rgb(223, 114, 114);
+    width: 100%;
+    background-color: rgb(223, 114, 114);
 }
